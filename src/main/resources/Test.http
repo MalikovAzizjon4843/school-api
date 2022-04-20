@@ -1,0 +1,9 @@
+GET http://localhost:80/api/book/getFollowingBook
+Accept: application/json
+
+###
+GET http://localhost:80/api/book
+Accept: application/json
+
+###
+

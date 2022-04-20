@@ -1,0 +1,24 @@
+server:
+  port: 80
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/school
+    password: Aziz20034843
+    username: postgres
+
+  mvc:
+    servlet:
+      path: /api
+  sql:
+    init:
+      mode: always
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+jwt:
+  secretKey: SupperKey
+  expireTime: 864000000
+
+
